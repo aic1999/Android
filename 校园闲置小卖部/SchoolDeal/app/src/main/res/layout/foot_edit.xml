@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<EditText
+    android:id="@+id/ed_comm"
+    android:hint="说两句"
+    android:layout_marginTop="6dp"
+    android:layout_weight="1"
+  android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="45dp" />
+    <Button
+        android:id="@+id/btn_comm"
+        android:text="发表"
+        android:onClick="reply"
+        android:textColor="@color/white"
+        android:layout_weight="3"
+        android:layout_marginRight="@dimen/dp_4"
+        android:background="@drawable/shape"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+</LinearLayout>

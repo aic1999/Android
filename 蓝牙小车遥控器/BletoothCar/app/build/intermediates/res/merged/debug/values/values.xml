@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="beige">#CDCDCD</color>
+    <color name="black">#000000</color>
+    <color name="blue">#2EA2E4</color>
+    <color name="blue_dark">#0C4A9A</color>
+    <color name="green">#0dab61</color>
+    <color name="grey">#FF999999</color>
+    <color name="grey_light">#f3f3f3</color>
+    <color name="orange">#EA5513</color>
+    <color name="red">#ff0000</color>
+    <color name="red_dark">#BE0E20</color>
+    <color name="transparent">#00000000</color>
+    <color name="txbg">#BFBFBF</color>
+    <color name="white">#ffffff</color>
+    <string name="app_name">BTC</string>
+    <string name="bt_not_enabled_leaving">蓝牙不可用</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="connect">Connect a device</string>
+    <string name="discoverable">Make discoverable</string>
+    <string name="none_found">No devices found</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="not_connected">请连接相应的蓝牙模块</string>
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="send">Send</string>
+    <string name="title_connected_to">已连接： </string>
+    <string name="title_connecting">连接中....</string>
+    <string name="title_not_connected">无连接</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <style name="AnimationLeftFade">
+        <item name="android:windowEnterAnimation">@anim/in_lefttoright</item>
+        <item name="android:windowExitAnimation">@anim/out_righttoleft</item>
+    </style>
+</resources>

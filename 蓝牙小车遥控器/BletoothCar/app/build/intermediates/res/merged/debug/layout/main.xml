@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--android:theme="@android:style/Theme.Dialog"-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+    <ListView android:id="@+id/in"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stackFromBottom="true"
+        android:visibility="gone"
+        android:transcriptMode="alwaysScroll"
+        android:layout_weight="1"
+    />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/linearLayout">
+        <EditText android:id="@+id/edit_text_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+        />
+        <Button android:id="@+id/button_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send"
+        />
+    </LinearLayout>
+    <Button
+        android:id="@+id/bt_voal"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="圆"
+        android:visibility="gone"
+        android:background="@drawable/selector_oval"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/bt_border"
+        android:layout_width="50dp"
+        android:visibility="gone"
+        android:layout_height="50dp"
+        android:background="@drawable/selector_border"
+        android:text="正方形"
+        android:layout_below="@+id/bt_voal"
+        android:layout_toRightOf="@+id/in"
+        android:layout_marginTop="21dp" />
+
+    <Button
+        android:id="@+id/bt_tri"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        android:background="@drawable/mine_shan"
+        android:text="三角形"
+        android:layout_below="@+id/bt_border"
+        android:layout_alignParentLeft="true" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:id="@+id/rl"
+
+        android:layout_toRightOf="@+id/bt_voal">
+
+    </RelativeLayout>
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
+
+
+    <Button
+        android:id="@+id/tt_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/in"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="199dp"
+        android:visibility="invisible"
+        android:text="Button" />
+</RelativeLayout>

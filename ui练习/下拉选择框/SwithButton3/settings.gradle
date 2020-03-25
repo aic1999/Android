@@ -1,0 +1,2 @@
+rootProject.name='SwithButton'
+include ':app'

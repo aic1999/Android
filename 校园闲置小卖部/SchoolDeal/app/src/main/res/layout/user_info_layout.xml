@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/show_head"
+        android:background="@color/colorPrimary"
+        android:minHeight="150dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="UserName"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:id="@+id/info_name"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="(美女)"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:id="@+id/info_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_marginTop="10dp"
+             android:gravity="right"
+             android:layout_height="wrap_content">
+
+         </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="15dp"
+                android:id="@+id/info_word"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:text="这个人很懒，什么都没留。。。"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <TextView
+            android:text="下拉查看Ta曾发布过的帖子"
+            android:gravity="center"
+            android:id="@+id/show_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/info_list"
+            android:layout_marginLeft="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

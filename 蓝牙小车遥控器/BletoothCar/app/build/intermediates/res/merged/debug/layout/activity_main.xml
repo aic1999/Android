@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+
+
+
+        <Button
+            android:id="@+id/bt_voal"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:text="圆"
+            android:background="@drawable/selector_oval"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/bt_border"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:background="@drawable/selector_border"
+            android:text="正方形"
+            android:layout_marginBottom="16dp"
+            android:layout_above="@+id/bt_tri"
+            android:layout_alignParentLeft="true" />
+
+        <Button
+            android:id="@+id/bt_tri"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:background="@drawable/mine_shan"
+            android:text="三角形"
+            android:layout_marginBottom="47dp"
+            android:layout_above="@+id/toggleButton"
+            android:layout_alignParentLeft="true" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:id="@+id/rl"
+
+        android:layout_toRightOf="@+id/bt_voal">
+
+    </RelativeLayout>
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击开启"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+</RelativeLayout>

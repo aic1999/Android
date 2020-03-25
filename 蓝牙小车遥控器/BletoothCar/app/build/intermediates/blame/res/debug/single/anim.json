@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\2017two\\work\\beifen\\cbt\\app\\build\\intermediates\\res\\merged\\debug\\anim\\out_righttoleft.xml",
+        "source": "D:\\2017two\\work\\beifen\\cbt\\app\\src\\main\\res\\anim\\out_righttoleft.xml"
+    },
+    {
+        "merged": "D:\\2017two\\work\\beifen\\cbt\\app\\build\\intermediates\\res\\merged\\debug\\anim\\in_lefttoright.xml",
+        "source": "D:\\2017two\\work\\beifen\\cbt\\app\\src\\main\\res\\anim\\in_lefttoright.xml"
+    },
+    {
+        "merged": "D:\\2017two\\work\\Combine_bt_view\\app\\build\\intermediates\\res\\merged\\debug\\anim\\in_lefttoright.xml",
+        "source": "D:\\2017two\\work\\Combine_bt_view\\app\\src\\main\\res\\anim\\in_lefttoright.xml"
+    },
+    {
+        "merged": "D:\\2017two\\work\\Combine_bt_view\\app\\build\\intermediates\\res\\merged\\debug\\anim\\out_righttoleft.xml",
+        "source": "D:\\2017two\\work\\Combine_bt_view\\app\\src\\main\\res\\anim\\out_righttoleft.xml"
+    }
+]

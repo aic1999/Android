@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/gl2"
+    android:columnCount="4"
+    android:background="#696969"
+    android:weightSum="1">
+
+
+    <ImageButton
+        android:id="@+id/iimageButton1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@layout/yuan"
+        android:layout_margin="10dp"
+         />
+
+    <ImageButton
+        android:id="@+id/iimageButton2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@layout/border"
+        android:layout_margin ="10dp"
+        />
+
+
+    <ImageButton
+        android:id="@+id/iimageButton3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@layout/border2"
+        android:layout_margin ="10dp"
+        />
+
+
+    <ImageButton
+        android:id="@+id/iimageButton4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@layout/tri"
+        android:layout_margin ="10dp"
+        />
+
+
+    <ImageButton
+        android:id="@+id/iimageButton5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/power"
+        android:layout_margin ="10dp"
+        />
+
+    <ImageButton
+        android:id="@+id/iimageButton6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/stop"
+        android:layout_margin ="10dp" />
+    <ImageButton
+        android:id="@+id/iimageButton7"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@layout/add"
+        android:layout_margin ="10dp" />
+
+</GridLayout>

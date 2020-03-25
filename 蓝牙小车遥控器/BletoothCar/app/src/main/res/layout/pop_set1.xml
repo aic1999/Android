@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/gl1"
+    android:columnCount="4"
+    android:background="#696969"
+    android:weightSum="1">
+
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="10dp"
+        android:background="@layout/button1" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/wheel"
+
+         />
+    <!--<com.example.android.BluetoothChat.ui.circle-->
+        <!--android:id="@+id/imageButton4"-->
+        <!--android:layout_width="70dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_height="70dp"-->
+        <!--/>-->
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="70dp"
+        android:layout_margin="10dp"
+        android:layout_height="70dp"
+        android:background="@layout/yuan"
+        />
+    <ImageButton
+    android:id="@+id/imageButton3"
+    android:layout_width="70dp"
+    android:layout_margin="10dp"
+    android:layout_height="70dp"
+    android:background="@layout/add"
+    />
+
+
+</GridLayout>

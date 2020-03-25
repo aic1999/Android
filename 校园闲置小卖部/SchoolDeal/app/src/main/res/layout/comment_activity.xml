@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/appBarLayout">
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/tv_comm_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="18dp"
+        android:text="title"
+        android:layout_below="@+id/appBarLayout"
+        android:layout_alignStart="@+id/tv_comm_content" />
+<LinearLayout
+   android:background="@color/colorPrimaryDark"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="4dp"
+    android:layout_below="@+id/tv_comm_user"
+    android:id="@+id/linearLayout">
+
+</LinearLayout>
+<TextView
+    android:text="来自："
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/linearLayout"
+    android:layout_alignEnd="@+id/tv_comm_title"
+    android:id="@+id/textView" />
+    <TextView
+        android:id="@+id/tv_comm_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="user"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/tv_comm_title"
+        android:layout_toEndOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/tv_comm_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="tv_comm_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="18dp" />
+<LinearLayout
+    android:id="@+id/l"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/accent_red"
+    android:layout_below="@+id/tv_comm_content"
+    android:layout_marginTop="14dp"
+    android:layout_alignParentStart="true">
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/l"
+        android:layout_height="match_parent">
+<ListView
+    android:id="@+id/lv_comm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</ListView>
+
+    </LinearLayout>
+    <include
+        android:id="@+id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/foot_edit"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

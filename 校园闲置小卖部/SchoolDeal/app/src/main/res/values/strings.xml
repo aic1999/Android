@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">黑科技小卖部</string>
+    <string name="title_home">通知</string>
+    <string name="title_dashboard">首页</string>
+    <string name="title_notifications">更多</string>
+
+    <string name="title">test</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="action_settings">Settings</string>
+</resources>
