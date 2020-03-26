@@ -39,7 +39,7 @@ public class ToggleView extends View {
 		super(context, attrs);
 		init();
 		// 获取配置的自定义属性
-		String namespace = "http://schemas.android.com/apk/res/com.itheima74.toggleview";
+		String namespace = "http://schemas.android.com/apk/res/com.aic.tagglebutton";
 		int switchBackgroundResource = attrs.getAttributeResourceValue(namespace , "switch_background", -1);
 		int slideButtonResource = attrs.getAttributeResourceValue(namespace , "slide_button", -1);
 		
@@ -168,7 +168,6 @@ public class ToggleView extends View {
 
 	/**
 	 * 设置开关状态
-	 * @param b
 	 */
 	public void setSwitchState(boolean mSwitchState) {
 		this.mSwitchState = mSwitchState;

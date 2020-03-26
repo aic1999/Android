@@ -64,6 +64,7 @@ public class MainActivity extends Activity implements ViewPager.OnPageChangeList
         }.start();
     }
 
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
